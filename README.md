@@ -43,11 +43,11 @@ npx serve
 
 This is a frontend developer portfolio page that demonstrates:
 
-- ✅ Semantic HTML5 structure
-- ✅ Accessibility best practices
-- ✅ Responsive design
-- ✅ Modern CSS (Grid, Flexbox, Custom Properties)
-- ✅ W3C validated code (0 errors)
+- Semantic HTML5 structure
+- Accessibility best practices
+- Responsive design
+- Modern CSS (Grid, Flexbox, Custom Properties)
+- W3C validated code (0 errors)
 
 ---
 
@@ -217,7 +217,7 @@ For questions or feedback:
 
 ---
 
-**Built with semantic HTML, vanilla CSS, and a focus on accessibility.** ✅
+**Built with semantic HTML, vanilla CSS, and a focus on accessibility.** 
 ```
 
 ---
@@ -268,23 +268,3 @@ W3C HTML Validator: 0 errors, 0 warnings
 Vaishnavi Pradhan | Vaishnavi@pradhan.dev
 ```
 
----
-
-## How to Add This to Your GitHub Repo
-
-1. **Create the README file:**
-   - In your `Task-1` folder, create a file named `README.md`
-   - Copy the content above into that file
-
-2. **Commit and push:**
-```bash
-git add README.md
-git commit -m "Add README file with setup instructions"
-git push origin main
-```
-
-3. **On GitHub:** The README will automatically appear on your repository's main page
-
----
-
-The README shows anyone visiting your GitHub repo exactly how to run your project - starting with `npx serve` - just like you see in your terminal!
