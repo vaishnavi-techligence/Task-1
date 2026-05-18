@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio & technical blog of Vaishnavi Pradhan, a senior UI engineer specializing in accessibility, semantic layouts, and zero-dependency CSS.">
+  <title>Vaishnavi Pradhan | Frontend Engineer & UI Architect</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- quick keyboard skip link for accessibility audits -->
+  <a href="#content-start" class="skip-nav-trigger">Skip to content</a>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand-logo">
+        <a href="#" aria-label="Vaishnavi Pradhan Home">
+          <span class="neon-accent">[</span>VP<span class="neon-accent">]</span>
+        </a>
+      </div>
+      
+      <nav class="nav-links" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-item">About</a></li>
+          <li><a href="#skills" class="nav-item">Focus</a></li>
+          <li><a href="#projects" class="nav-item">Work</a></li>
+          <li><a href="#blog" class="nav-item">Writing</a></li>
+          <li><a href="#contact" class="cta-nav-button">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content-start">
+    
+    <section id="about" class="hero-intro" aria-labelledby="intro-headline">
+      <div class="narrow-container">
+        <div class="status-pill">Available for audit projects</div>
+        <h1 id="intro-headline" class="main-heading">
+          I build web interfaces that are <span class="gradient-text">resilient, highly accessible,</span> and fast.
+        </h1>
+        <p class="hero-subtext">
+          Hi, I’m Vaishnavi. I’m a frontend engineer. I focus on modular CSS architectures, keyboard-friendly components, and resolving paint bottlenecks. I prefer lightweight, standard-compliant vanilla code over heavy Javascript frameworks because websites should load immediately and work for everyone.
+        </p>
+        <div class="action-buttons">
+          <a href="#projects" class="action-btn primary-btn">Browse Work</a>
+          <a href="#contact" class="action-btn outline-btn">Book an Audit</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="expertise-block" aria-labelledby="focus-title">
+      <div class="main-container">
+        <h2 id="focus-title" class="block-title">Things I care about</h2>
+        <p class="block-subtitle">
+          I build for the platform. By utilizing native browser capabilities, modern layouts, and correct document outlines, I guarantee lightweight and compliant builds.
+        </p>
+        
+        <div class="expertise-grid">
+          <div class="expertise-card">
+            <div class="icon-indicator" aria-hidden="true">&lt;/&gt;</div>
+            <h3 class="card-heading">Semantic HTML &amp; Accessibility</h3>
+            <p class="card-text">
+              Writing WCAG 2.2 compliant frontends. Using native HTML5 landmarks, managing active focus cycles, and applying exact ARIA descriptions where necessary.
+            </p>
+          </div>
+          
+          <div class="expertise-card">
+            <div class="icon-indicator" aria-hidden="true">#️⃣</div>
+            <h3 class="card-heading">Vanilla CSS Architectures</h3>
+            <p class="card-text">
+              Crafting scalable styling systems using native variables, custom queries, clamp fluid scaling, and modern layout modules. Zero heavy frameworks needed.
+            </p>
+          </div>
+          
+          <div class="expertise-card">
+            <div class="icon-indicator" aria-hidden="true">⚡</div>
+            <h3 class="card-heading">Performance &amp; Core APIs</h3>
+            <p class="card-text">
+              Debugging paint issues, analyzing rendering frames, deferring offscreen styles, and writing dependency-free scripts to maximize load speeds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="showcase-block" aria-labelledby="work-title">
+      <div class="main-container">
+        <h2 id="work-title" class="block-title">Selected projects</h2>
+        <p class="block-subtitle">
+          A small collection of lightweight open-source tools and frontend libraries built with standard web technologies.
+        </p>
+
+        <div class="showcase-grid">
+          <article class="work-card">
+            <div class="card-visual" aria-hidden="true">
+              <span class="visual-symbol">✦</span>
+            </div>
+            <div class="card-details">
+              <h3 class="work-title">Aura Headless UI</h3>
+              <p class="work-description">
+                A set of keyboard-accessible UI primitives written entirely in native custom elements. Includes built-in focus trapping, automated screen reader announcements, and fully unstyled liquid structures.
+              </p>
+              <div class="tag-list">
+                <span class="badge-tag">Web Components</span>
+                <span class="badge-tag">a11y Specs</span>
+                <span class="badge-tag">ES6 JS</span>
+              </div>
+              <a href="#" class="details-link" aria-label="Analyze Aura Headless UI project code">
+                Inspect Source <span class="arrow-sym" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="card-visual" aria-hidden="true">
+              <span class="visual-symbol">❖</span>
+            </div>
+            <div class="card-details">
+              <h3 class="work-title">Markflow Canvas Parser</h3>
+              <p class="work-description">
+                A real-time visual rendering engine that translates plain markdown documents into interactive visual node charts using the HTML5 Canvas API and customized layout structures.
+              </p>
+              <div class="tag-list">
+                <span class="badge-tag">Canvas API</span>
+                <span class="badge-tag">AST Parsing</span>
+                <span class="badge-tag">Vanilla JS</span>
+              </div>
+              <a href="#" class="details-link" aria-label="Analyze Markflow Canvas Parser project code">
+                Inspect Source <span class="arrow-sym" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="card-visual" aria-hidden="true">
+              <span class="visual-symbol">⚙</span>
+            </div>
+            <div class="card-details">
+              <h3 class="work-title">Spectra Layout Profiler</h3>
+              <p class="work-description">
+                A devtools utility designed to isolate visual layout shifts, tracking dirty layout nodes, paint costs, and performance bottlenecks in browser rendering loops.
+              </p>
+              <div class="tag-list">
+                <span class="badge-tag">Performance</span>
+                <span class="badge-tag">Extension API</span>
+                <span class="badge-tag">CSS Audits</span>
+              </div>
+              <a href="#" class="details-link" aria-label="Analyze Spectra Layout Profiler project code">
+                Inspect Source <span class="arrow-sym" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="insights-section" aria-labelledby="writing-title">
+      <div class="main-container">
+        <h2 id="writing-title" class="block-title">Technical writing</h2>
+        <p class="block-subtitle">
+          Opinionated articles about browser engines, frontend performance bottlenecks, and writing cleaner code.
+        </p>
+
+        <div class="insights-layout">
+          <div class="posts-feed">
+            <article class="post-item">
+              <div class="post-meta-data">
+                <time datetime="2026-05-12">May 12, 2026</time>
+                <span class="reading-time">6 min read</span>
+              </div>
+              <h3 class="post-headline">Why I stopped using utility-first CSS frameworks</h3>
+              <p class="post-summary">
+                Utility frameworks are highly convenient at first, but they quickly lead to heavy HTML structures, dynamic coloring issues, and restricted layouts. Here's a look at how modern vanilla CSS custom properties give you better rendering flexibility for zero layout footprint.
+              </p>
+              <a href="#" class="read-post-link" aria-label="Read full article: Why I stopped using utility-first CSS frameworks">
+                Read Article <span class="arrow-sym" aria-hidden="true">&rarr;</span>
+              </a>
+            </article>
+
+            <article class="post-item">
+              <div class="post-meta-data">
+                <time datetime="2026-04-28">April 28, 2026</time>
+                <span class="reading-time">4 min read</span>
+              </div>
+              <h3 class="post-headline">Stop setting outline: none on interactive states</h3>
+              <p class="post-summary">
+                Removing focus highlights completely ruins keyboard navigation routes for many visitors. Instead, let's explore how to styling :focus-visible selectors dynamically to create custom focus treatments that keep accessibility audits clean and designers happy.
+              </p>
+              <a href="#" class="read-post-link" aria-label="Read full article: Stop setting outline: none on interactive states">
+                Read Article <span class="arrow-sym" aria-hidden="true">&rarr;</span>
+              </a>
+            </article>
+
+            <article class="post-item">
+              <div class="post-meta-data">
+                <time datetime="2026-04-10">April 10, 2026</time>
+                <span class="reading-time">8 min read</span>
+              </div>
+              <h3 class="post-headline">Speeding up Largest Contentful Paint (LCP)</h3>
+              <p class="post-summary">
+                An engineering breakdown of resolving visual rendering bottlenecks. Identifying LCP indicators, managing main-thread tasks, resolving dynamic font loading lags, and prioritizing crucial stylesheets.
+              </p>
+              <a href="#" class="read-post-link" aria-label="Read full article: Speeding up Largest Contentful Paint (LCP)">
+                Read Article <span class="arrow-sym" aria-hidden="true">&rarr;</span>
+              </a>
+            </article>
+          </div>
+
+          <aside class="sidebar-widgets" aria-label="Sidebar updates">
+            <div class="widget-box newsletter-signup">
+              <h3 class="widget-heading">Monthly engineering updates</h3>
+              <p class="widget-text">
+                No telemetry. No marketing newsletters. Just analytical writeups tracking standard layouts, CSS engines, and clean code experiments sent once a month.
+              </p>
+              
+              <form class="signup-form" action="#" method="POST" aria-label="Newsletter Signup">
+                <div class="form-field">
+                  <label for="name-input">First Name</label>
+                  <input type="text" id="name-input" name="username" placeholder="Vaishnavi" required>
+                </div>
+                
+                <div class="form-field">
+                  <label for="email-input">Email Address</label>
+                  <input type="email" id="email-input" name="useremail" placeholder="Vaishnavi@example.com" required>
+                </div>
+                
+                <button type="submit" class="action-btn primary-btn block-btn">Subscribe</button>
+              </form>
+            </div>
+            
+            <div class="widget-box research-widget">
+              <h3 class="widget-heading">Currently researching</h3>
+              <p class="widget-text">
+                Analyzing the visual painting differences between modern CSS container queries and JavaScript-based element resizing engines in performance-intensive sites.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="get-in-touch" aria-labelledby="contact-heading">
+      <div class="main-container">
+        <h2 id="contact-heading" class="block-title">Let's talk shop</h2>
+        <p class="block-subtitle">
+          Have an interesting layout puzzle, a complex web accessibility challenge, or a site in desperate need of a performance review? Say hello.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-methods">
+            <h3 class="methods-title">Direct channels</h3>
+            <p class="methods-description">
+              Send a note directly using the email below, or submit details using the secure form. I usually reply within one business day.
+            </p>
+            <ul class="channels-list">
+              <li>
+                <span class="label-heading">Email Address</span>
+                <a href="mailto:Vaishnavi@pradhan.dev" class="channel-link">Vaishnavi@pradhan.dev</a>
+              </li>
+              <li>
+                <span class="label-heading">Location</span>
+                <span class="channel-text">Pune</span>
+              </li>
+              <li>
+                <span class="label-heading">PGP Key fingerprint</span>
+                <code class="fingerprint-key">D842 C81B ... A309</code>
+              </li>
+            </ul>
+          </div>
+
+          <div class="form-wrapper">
+            <form class="direct-contact-form" action="#" method="POST" aria-label="Contact Form">
+              <div class="flex-row">
+                <div class="form-field">
+                  <label for="sender-name">Your Name</label>
+                  <input type="text" id="sender-name" name="fullname" placeholder="Vaishnavi Pradhan" required>
+                </div>
+                
+                <div class="form-field">
+                  <label for="sender-email">Email Address</label>
+                  <input type="email" id="sender-email" name="emailaddress" placeholder="vaishnavi@example.com" required>
+                </div>
+              </div>
+              
+              <div class="form-field">
+                <label for="message-body">Message Details</label>
+                <textarea id="message-body" name="messagedetail" placeholder="Outline your project scope, accessibility goals, or timing..." rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="action-btn primary-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-wrap">
+    <div class="main-container">
+      <div class="footer-top">
+        <span class="footer-logo">[VP]</span>
+        <p class="footer-summary">Performance-tuned, highly accessible interface structures.</p>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright-notice">&copy; 2026 Vaishnavi Pradhan. All rights reserved.</p>
+        <nav class="footer-navigation" aria-label="Footer links">
+          <ul class="footer-links-list">
+            <li><a href="#" class="footer-nav-link">Terms</a></li>
+            <li><a href="#" class="footer-nav-link">Privacy</a></li>
+            <li><a href="https://validator.w3.org/check?uri=referer" class="footer-nav-link" target="_blank" rel="noopener">W3C Compliance</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
