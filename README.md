@@ -157,43 +157,14 @@ Then visit: `http://localhost:8080`
 
 ## Screenshot
 
-*(Add a screenshot of your portfolio here)*
+<img width="1879" height="917" alt="image" src="https://github.com/user-attachments/assets/f0d4caa7-89ed-45b2-8666-26ff7f151777" />
+<img width="1868" height="907" alt="image" src="https://github.com/user-attachments/assets/323bfab9-ae3c-4404-b3df-17d5421f0cfb" />
+<img width="1728" height="909" alt="image" src="https://github.com/user-attachments/assets/801a4c2b-2d9b-4702-9146-9ead490ae733" />
+<img width="1604" height="910" alt="image" src="https://github.com/user-attachments/assets/62585a58-21a1-46d9-9635-f9225508c81b" />
+<img width="1493" height="770" alt="image" src="https://github.com/user-attachments/assets/3c4e12f0-6846-4be7-b714-dc67050b08ce" />
+<img width="1488" height="895" alt="image" src="https://github.com/user-attachments/assets/747fd2a5-eea2-4b79-9185-5b8b72d80e5d" />
+<img width="1589" height="881" alt="image" src="https://github.com/user-attachments/assets/d54c259b-45e4-47b2-854a-2f69107f901b" />
 
-```
-![Portfolio Screenshot](./screenshot.png)
-```
-
----
-
-## Requirements Checklist
-
-- [x] Header with navigation
-- [x] 3 article cards (title, date, excerpt, read-more link)
-- [x] Sidebar with newsletter signup form
-- [x] Footer
-- [x] 6+ semantic HTML elements
-- [x] Proper heading hierarchy (H1 → H2 → H3)
-- [x] All form inputs have associated labels
-- [x] W3C validator: 0 errors
-- [x] External CSS (no inline or style tags)
-- [x] 5+ CSS custom properties
-- [x] REM units only
-- [x] Optimized for 1280px viewport
-- [x] Hover states on cards
-- [x] Focus states on all interactive elements
-
----
-
-## Author
-
-**Vaishnavi Pradhan**
-
-- Portfolio: *(your website)*
-- GitHub: *(your GitHub profile)*
-- Email: Vaishnavi@pradhan.dev
-- Location: Pune, India
-
----
 
 ## License
 
