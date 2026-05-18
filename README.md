@@ -237,5 +237,3 @@ W3C HTML Validator: 0 errors, 0 warnings
 ## Author
 
 Vaishnavi Pradhan | Vaishnavi@pradhan.dev
-```
-
